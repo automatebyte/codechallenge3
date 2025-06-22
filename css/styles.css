@@ -1,101 +1,91 @@
-/* css/styles.css */
-
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 2rem;
+  background-color: #f9f9f9;
   color: #333;
 }
 
 .container {
   max-width: 960px;
-  margin: auto;
-  padding: 2rem;
+  margin: 0 auto;
 }
 
 h1, h2 {
   text-align: center;
-  color: #2c3e50;
+  color: #222;
 }
 
 .main-content {
   display: flex;
   gap: 2rem;
-  margin: 2rem 0;
+  margin-top: 2rem;
 }
 
 .post-list {
   flex: 1;
-  background: #fff;
-  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 10px;
   padding: 1rem;
-  border-radius: 8px;
-  max-height: 500px;
-  overflow-y: auto;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
 }
 
 .post-item {
-  padding: 0.75rem;
-  border-bottom: 1px solid #eee;
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  transition: background 0.2s;
 }
 
 .post-item:hover {
-  background-color: #e8f0fe;
+  background-color: #f0f0f0;
 }
 
 .post-detail {
   flex: 2;
-  background: #fff;
-  border: 1px solid #ccc;
-  padding: 1rem;
-  border-radius: 8px;
-  min-height: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.post-detail img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
 
 form {
-  background: #fff;
-  padding: 1.5rem;
-  border: 1px solid #ccc;
   margin-top: 2rem;
-  border-radius: 8px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
 }
 
-form input[type="text"],
-form textarea {
+input, textarea {
   width: 100%;
-  padding: 0.75rem;
+  padding: 0.8rem;
   margin: 0.5rem 0;
-  border: 1px solid #bbb;
-  border-radius: 4px;
-  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 }
 
-form button {
-  background-color: #3498db;
-  color: #fff;
-  padding: 0.75rem 1.5rem;
+button {
+  padding: 0.6rem 1.2rem;
+  background-color: #007bff;
+  color: white;
   border: none;
-  border-radius: 4px;
-  font-weight: bold;
+  border-radius: 6px;
   cursor: pointer;
-  margin-top: 1rem;
-  transition: background-color 0.3s ease-in-out;
+  margin-top: 0.5rem;
 }
 
-form button:hover {
-  background-color: #2980b9;
-}
-
-button#cancel-edit {
-  background-color: #aaa;
-  margin-left: 1rem;
-}
-
-button#cancel-edit:hover {
-  background-color: #888;
+button:hover {
+  background-color: #0056b3;
 }
 
 .hidden {

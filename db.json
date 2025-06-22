@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "id": "3",
+      "title": "Why Mobile-First Matters in Africa",
+      "content": "With mobile penetration exceeding 80% in some regions, building mobile-first solutions isn't just smart—it's essential. Here's how startups are winning with it.",
+      "author": "TechDigest Africa",
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    {
+      "id": "4",
+      "title": "Kofi’s Story: From Garage to Incubator",
+      "content": "After being rejected by three accelerators, Kofi Mensah bootstrapped his energy-monitoring app from his uncle’s garage. Today, he's been accepted into Y Combinator.",
+      "author": "Forbes Africa",
+      "avatar": "https://i.pravatar.cc/150?img=48"
+    }
+  ]
+}
